@@ -1,0 +1,42 @@
+---
+title: "Introduction to CalorICU"
+output: rmarkdown::html_vignette
+description: >
+  Start here if this is your first time using CalorICU. You'll learn the basic
+  in the analysis of the Urban Heat Island phenomena.
+vignette: >
+  %\VignetteIndexEntry{Introduction to CalorICU}
+  %\VignetteEngine{knitr::knitr}
+  \usepackage[utf8]{inputenc}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  comment = "#>",
+  warning = FALSE,
+  message = FALSE,
+  eval = FALSE,
+  out.width = "100%"
+)
+library(CalorICU)
+library(recipes)
+library(tidyr)
+library(dplyr)
+library(ggplot2)
+theme_set(theme_minimal())
+```
+
+This document introduces you to CalorICU's basic set of tools, once you've installed, read the manual  `vignette("CalorICO")` to learn more.
+
+The CalorICU package makes fast and easy the calibration of the temperature data and the termal band of remote sensor.
+
+## Generic Utilities
+
+To explore the basic data manipulation, we'll use the dataset XXXX to demostrate the generic functions of the package.
+
+When working with climatic data you must prepare it to the time series format
+
+### ts_format_hr
+
+
+

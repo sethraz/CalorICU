@@ -1,0 +1,37 @@
+Package: CalorICU
+Type: Package
+Title: CalorICU is a set of tools to analize the Urban Heat Island 
+Version: 0.1.0
+Authors@R: 
+    c(person(given = "Omar",
+             family = "Barrantes-Sotela",
+             role = c("aut", "cre"),
+             email = "omar.barrantes.sotela@una.ac.cr",
+             comment = c(ORCID = "0000-0003-4225-5784"))
+             )
+Maintainer: The package maintainer <omar.barrantes.sotela@una.ac.cr>
+Description: Toolset for study the Urban Heat Island phenomena in a city o urban environment.
+    Use meteorological dataset from meteorological station on the ground to calibrate the termal band of sensors like
+    Landsat 5, Landsat 7 and Landsat 9 to get superficial temperature of the ground.
+    A fast, consistent tool for working with data frame
+    like objects, both in memory and out of memory.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
+Imports:
+Suggests:
+    readxl,
+    knitr,
+    rmarkdown,
+    tibble,
+    ggplot2,
+    dplyr,
+    tidyr,
+    recipes,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
